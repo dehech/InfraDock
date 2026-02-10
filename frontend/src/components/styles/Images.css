@@ -1,0 +1,33 @@
+.images-container {
+  margin-top: 20px;
+}
+
+.images-title {
+  font-size: 28px;
+  font-weight: 600;
+  color: #1e293b;
+  margin-bottom: 20px;
+}
+
+.images-table {
+  margin-top: 10px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.images-table th {
+  background-color: #f1f5f9;
+  padding: 12px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.images-table td {
+  padding: 10px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.images-row:hover {
+  background-color: #f8fafc;
+  transition: 0.2s ease;
+}

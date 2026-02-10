@@ -1,0 +1,80 @@
+/* --- Layout général --- */
+
+.dashboard {
+  display: flex;
+  height: 100%;
+  min-height: 100vh;
+  background-color: #f1f5f9;
+  font-family: "Inter", sans-serif;
+}
+
+/* --- Sidebar --- */
+
+.sidebar {
+  width: 230px;
+  background-color: #0f172a;
+  color: white;
+  padding: 25px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.sidebar-menu {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar-menu li {
+  padding: 12px 10px;
+  margin-bottom: 6px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.sidebar-menu li:hover {
+  background-color: #1e293b;
+  transition: 0.2s ease;
+}
+
+/* --- Content --- */
+
+.content {
+  flex: 1;
+  padding: 35px;
+}
+
+.page-title {
+  font-size: 34px;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 25px;
+}
+
+/* --- Cards / Sections --- */
+
+.section-card {
+  background: white;
+  padding: 25px;
+  border-radius: 14px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.05);
+  margin-bottom: 30px;
+}
+
+.dashboard {
+  display: flex;
+  background-color: #f1f5f9;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+  margin-left: 230px; /* important pour laisser la place à la sidebar */
+  padding: 35px;
+}

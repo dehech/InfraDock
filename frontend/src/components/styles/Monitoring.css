@@ -1,0 +1,25 @@
+.monitoring-container {
+  margin-top: 20px;
+}
+
+.monitoring-title {
+  font-size: 28px;
+  font-weight: 600;
+  color: #1e293b;
+  margin-bottom: 25px;
+}
+
+.monitoring-card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  max-width: 750px;
+  margin: auto;
+}
+
+.chart-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
